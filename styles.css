@@ -6,3 +6,27 @@ dark-blue - #134d71;
 white - #ffffff;
 black - #000000;
 */
+
+
+body {
+    height: 1000px;
+    background-image: linear-gradient(to bottom, #134d71, #295d80, #3c6d90, #4e7ea0, #608fb0, #649fb9, #6daec0, #7abdc5, #90cabd, #b0d5b6, #d4ddb6, #f7e4bf);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-family: 'Quicksand', sans-serif;
+  
+}
+
+     
+/* .background {
+    height: 1000px;
+    background-image: linear-gradient(to bottom, #134d71, #295d80, #3c6d90, #4e7ea0, #608fb0, #649fb9, #6daec0, #7abdc5, #90cabd, #b0d5b6, #d4ddb6, #f7e4bf);
+    margin: 0;
+    padding: 0;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+} */
