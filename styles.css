@@ -9,24 +9,79 @@ black - #000000;
 
 
 body {
-    height: 1000px;
+    
     background-image: linear-gradient(to bottom, #134d71, #295d80, #3c6d90, #4e7ea0, #608fb0, #649fb9, #6daec0, #7abdc5, #90cabd, #b0d5b6, #d4ddb6, #f7e4bf);
+    background-attachment: fixed;
     margin: 0;
     padding: 0;
-    display: flex;
+    
     font-family: 'Quicksand', sans-serif;
-  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
-     
-/* .background {
-    height: 1000px;
-    background-image: linear-gradient(to bottom, #134d71, #295d80, #3c6d90, #4e7ea0, #608fb0, #649fb9, #6daec0, #7abdc5, #90cabd, #b0d5b6, #d4ddb6, #f7e4bf);
+h1{
+    color: ghostwhite
+}     
+
+h3{
+    color: ghostwhite
+}
+
+.background {  
+    border: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+top {
+    border: 0;
+    display: flex;
+    justify-content: top;
+    align-items: center;
+    flex-direction: row;
+}
+
+.messages{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     margin: 0;
     padding: 0;
+}
+
+
+
+.button {
     display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    background-color: ghostwhite;
+    width: 450px;
+    height: 40px; 
+}
+
+/* .receive {
 
 } */
+
+.box {
+    background-color: ghostwhite;
+    width: 450px;
+    height: 80px; 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 5px;
+}
