@@ -118,4 +118,17 @@ padding-left: 38px;
 .buddha {
     height: 70px;
     width: 70px;
+    /* padding-left: 150px; */
+}
+
+.message {
+    display: none;
+    font-family: 'Quicksand', sans-serif;
+    /* color: #134d71; */
+    font-weight: bold;
+    font-size: 30px;
+    background: -webkit-linear-gradient(#134d71, #78a7c6, #134d71);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;    
 }
