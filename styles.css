@@ -27,12 +27,10 @@ body {
 }
 
 h1{
-    color: ghostwhite
+    color: #ffffff
 }     
 
-h3{
-    color: ghostwhite
-}
+
 
 .background {  
     border: 0;
@@ -51,15 +49,7 @@ top {
     flex-direction: row;
 }
 
-.messages{
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 0;
-    padding: 0;
-}
 
 .affirm {
 padding-right: 5px;
@@ -68,30 +58,19 @@ padding-right: 5px;
 padding-left: 38px;
 }
 
-.button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 0;
-    padding: 0;
-    background-color: ghostwhite;
-    width: 450px;
-    height: 40px;
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px; 
-}
+
 
 .receive {
+    border-radius: 8px;
     width: 160px;
     height: 25px;
-    color: ghostwhite;
+    color: #ffffff;
     background-color: #134d71;
     font-family: 'Quicksand', sans-serif;
 } 
 
 .box {
-    background-color: ghostwhite;
+    background-color: #ffffff;
     width: 450px;
     height: 40px; 
     display: flex;
@@ -103,7 +82,7 @@ padding-left: 38px;
 }
 
 .box2 {
-    background-color: ghostwhite;
+    background-color: #ffffff;
     width: 650px;
     height: 120px; 
     display: flex;
@@ -121,7 +100,42 @@ padding-left: 38px;
     /* padding-left: 150px; */
 }
 
+
+h3{
+    color: #ffffff
+}
+
+
+h5 {
+    text-align: center; 
+    color: #134d71;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;   
+    margin: 0;
+    padding: 0;
+}
+
+.user {
+    /* margin-bottom: 30px; */
+    border-radius: 8px;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.enter {
+    border-radius: 8px;
+    margin: 0;
+    padding: 0;
+    width: 160px;
+    height: 25px;
+    color: #ffffff;
+    background-color: #134d71;
+    font-family: 'Quicksand', sans-serif;
+}
+
 .message {
+
     display: none;
     font-family: 'Quicksand', sans-serif;
     /* color: #134d71; */
@@ -131,4 +145,44 @@ padding-left: 38px;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align: center;    
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    width: 450px;
+    height: 40px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px; 
+}
+
+.messages{    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.login {
+    display: flex;
+    height: 122px;
+    width: 450px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.which {
+    
 }
