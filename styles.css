@@ -23,7 +23,7 @@ body {
 }
 
 .title { 
-    padding-bottom: 35px
+    padding-bottom: 41px;
 }
 
 h1{
@@ -42,7 +42,7 @@ h1{
 }
 
 top {
-    border: 0;
+    
     display: flex;
     justify-content: top;
     align-items: center;
@@ -103,8 +103,11 @@ padding-left: 38px;
 
 h3{
     color: #ffffff
+   
 }
-
+h4{
+    color: #ffffff
+}   
 
 h5 {
     text-align: center; 
@@ -120,7 +123,9 @@ h5 {
     border-radius: 8px;
     margin: 0;
     padding: 0;
-    
+    text-align: center;
+    font-weight: bold;
+    color: #134d71;
 }
 
 .enter {
@@ -159,6 +164,7 @@ h5 {
     height: 40px;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px; 
+    margin-bottom: 41px;
 }
 
 .messages{    
@@ -179,10 +185,13 @@ h5 {
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
-    margin-bottom: 0px;
+    margin-bottom: 41px;
     padding-bottom: 0px;
 }
 
 .which {
-    
+    text-align: center; 
+}
+.hi {
+    text-align: center; 
 }
